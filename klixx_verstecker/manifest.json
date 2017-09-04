@@ -1,0 +1,14 @@
+{
+  "name": "Verflixxte Klixx Klick verstecker",
+  "description": "Ermöglicht das verstecken der aktuellen Klixx bei Youtube videos",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Klixx Verstecker",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

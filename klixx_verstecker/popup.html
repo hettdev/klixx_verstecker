@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Set Page Color Popup</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+
+    div:first-child {
+      margin-top: 0px;
+    }
+
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 3.66em;
+      width: 350px;
+      margin-top: 1px;
+      background: #eeeeee;
+    }
+    div:hover {
+      background: #cccccc;
+    }
+    #on {
+      border: 1px solid #222222;
+      color: #555555;
+    }
+    #off {
+      border: 1px solid #222222;
+      color: #555555;
+    }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="show">Zeige Clicks</div>
+    <div id="hide">Verstecke Clicks</div>
+  </body>
+</html>
